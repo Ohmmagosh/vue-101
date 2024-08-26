@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Test from './Test.vue'
+console.log('hello')
 </script>
 <template>
     <div>
@@ -11,9 +12,6 @@ import Test from './Test.vue'
 <script lang="ts">
 export default {
     name: 'Hello',
-    setup() {
-        console.log('Hello World')
-    },
     props: {
         msg: String
     }
