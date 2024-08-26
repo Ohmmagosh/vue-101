@@ -2,5 +2,5 @@
     import SlotA from '@/components/SlotA.vue'
 </script>
 <template>
-    <Slot-A/>
+    <SlotA/>
 </template>
