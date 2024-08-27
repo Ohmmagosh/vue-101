@@ -4,6 +4,7 @@ import HelloView from "@/views/HelloView.vue";
 import SlotView from "@/views/SlotView.vue";
 import LoginView from "@/views/LoginView.vue";
 import VIfView from "@/views/VifView.vue";
+import FormView from "@/views/FormView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +38,11 @@ const router = createRouter({
       path: "/v-if",
       name: "v-if",
       component: VIfView,
+    },
+    {
+      path: "/form",
+      name: "form",
+      component: FormView,
     }
   ],
 });

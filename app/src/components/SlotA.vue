@@ -1,12 +1,6 @@
 <script lang="ts">
 import { ref } from "vue";
 export default {
-  // setup() {
-  //   const countB = ref<number>(0);
-  //   return {
-  //     countB,
-  //   };
-  // },
   data() {
     const countB = ref<number>(0);
     return {
