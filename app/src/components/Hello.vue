@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import Test from './Test.vue'
-console.log('hello')
 </script>
 <template>
-    <div>
+    <div class="h-full w-full bg-blue-200">
         <h1>Hello props</h1>
         <h1>{{ msg }}</h1>
         <Test msg="Hello World" />
